@@ -34,8 +34,7 @@ if ($conn->query($sql) === TRUE) {
                   </b>
                   </p>
               ";
-    // $email_id = 'leads.wesettle@gmail.com';
-    $email_id = 'abhishekpurnapatre17@gmail.com';
+    $email_id = 'leads.wesettle@gmail.com';
     // smtp_mailer("mail-id of the user", subject , text inside the mail)
 	smtp_mailer($email_id,'User query',$mailHtml);          
     echo '<script>

@@ -699,7 +699,7 @@ padding-right: 10px;
   left: 14px;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #ccc;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -737,7 +737,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-  background-image: url(../assets/images/whatsapp-social-media-svgrepo-com.svg);
+  /* background-image: url(../assets/images/whatsapp-social-media-svgrepo-com.svg); */
 }
 
 .form {

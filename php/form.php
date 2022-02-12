@@ -38,7 +38,7 @@ if ($conn->query($sql) === TRUE) {
     // smtp_mailer("mail-id of the user", subject , text inside the mail)
 	smtp_mailer($email,'User query',$mailHtml);          
     echo '<script>
-    alert("We will catch you as soon as possible.");
+    alert("We will call you back as soon as possible.");
     window.location.href = "../index.html";
     </script>';
 } else {

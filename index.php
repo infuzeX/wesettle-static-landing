@@ -103,7 +103,7 @@
       <img class="col-md-6 img-col" src="./assets/images/pg-banner.png">
       <div class="col-md-6 form-col">
         <!-- form -->
-        <section class="form">
+        <section class="form extra">
     <h1 class="blue">REQUEST A CALLBACK</h1>
     <div class="form-cross">
       <!-- <i class="fas fa-times"></i> -->

@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "infuzex-wesettle";
+$username = "wesettle_form_use";
+$password = "xdfx36W#^#$@";
+$dbname = "wesettle_form";
 
 //details for infuzex database 
 // $servername = "localhost";

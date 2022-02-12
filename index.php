@@ -48,7 +48,7 @@
         <div class="brand">
           <div class="brand-img">
             <span class="brand-logo">
-              <a href="/"><img src="./assets/images/wesettle-logo.png" alt="wesettle-logo" /></a></span>
+              <a href="#"><img src="./assets/images/wesettle-logo.png" alt="wesettle-logo" /></a></span>
           </div>
           </a>
           </h1>
@@ -438,7 +438,7 @@
 
         <div class="brand-img">
           <span class="brand-logo">
-            <a href="/"><img src="./assets/images/wesettle-logo.png" alt="wesettle-logo" /></a></span>
+            <a href="#"><img src="./assets/images/wesettle-logo.png" alt="wesettle-logo" /></a></span>
         </div>
         
       </div>

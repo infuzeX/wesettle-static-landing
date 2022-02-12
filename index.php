@@ -19,7 +19,7 @@
   <title>WeSettle - Find Best Rated PGs</title>
   <link rel="icon" href="./assets/images/favicon.png" sizes="16x16" type="image/png">
 
-  <!-- Facebook Pixel Code 
+  <!--Facebook Pixel Code--> 
   <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
@@ -37,7 +37,17 @@
   </script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=325483672775047&ev=PageView&noscript=1" /></noscript>
--->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7JPFQ4C9HJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7JPFQ4C9HJ');
+</script>
 
 </head>
 

@@ -1,5 +1,5 @@
 .slider1{
-    height: 450px;
+    height: 380px;
     width: 1075px;
     display: flex;
     align-items: center;
@@ -134,3 +134,9 @@ section .card1 .image1 img{
     font-size: 2rem;
     cursor: pointer;
 } */
+
+.slider_caption{
+text-align: center;
+color:rgb(35, 189, 196);
+margin-top: 5px;
+}

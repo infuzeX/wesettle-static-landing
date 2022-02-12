@@ -1141,6 +1141,7 @@ height: 16%!important;
   .featured-con-parent img {
     height: inherit;
     width: 149px;
+    margin-left: 25%;
   }
   .featured h1 {
   }

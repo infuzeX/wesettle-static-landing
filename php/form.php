@@ -34,11 +34,12 @@ if ($conn->query($sql) === TRUE) {
                   </b>
                   </p>
               ";
-    $email = 'leads.wesettle@gmail.com';
+    // $email_id = 'leads.wesettle@gmail.com';
+    $email_id = 'abhishekpurnapatre17@gmail.com';
     // smtp_mailer("mail-id of the user", subject , text inside the mail)
-	smtp_mailer($email,'User query',$mailHtml);          
+	smtp_mailer($email_id,'User query',$mailHtml);          
     echo '<script>
-    alert("Thank You! We will call you back as soon as possible.");
+    alert("We will call you back as soon as possible.");
     window.location.href = "../";
     </script>';
 } else {

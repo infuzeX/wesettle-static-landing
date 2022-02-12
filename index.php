@@ -104,45 +104,46 @@
       <div class="col-md-6 form-col">
         <!-- form -->
         <section class="form extra">
-          <h1 class="blue banner-form-head">REQUEST A CALLBACK</h1>
-          <div class="form-cross">
-            <!-- <i class="fas fa-times"></i> -->
-          </div>
-          <form class="wu request" action="./php/form.php" method="post">
-            <div>
-              <input type="text" name="Fname" placeholder="NAME" required />
-            </div>
-            <div>
-              <!--<input type="text" name="Lname" placeholder="LAST NAME" required />-->
-            </div>
-            <div class="phoneInput">
-              <input style="border-radius: 14px;" class="phone" type="number" name="phone" placeholder="MOBILE NUMBER"
-                required />
-              <div class="flag">
-                <span class="flag-svg"></span>
-                +91|
-              </div>
-            </div>
+    <h1 class="blue">REQUEST A CALLBACK</h1>
+    <div class="form-cross">
+      <!-- <i class="fas fa-times"></i> -->
+    </div>
+    <form class="wu request" action="./php/form.php" method="post">
+      <div>
+        <input type="text" name="Fname" placeholder="NAME" required />
+      </div>
+      <div>
+        <!--<input type="text" name="Lname" placeholder="LAST NAME" required />-->
+      </div>
+      <div class="phoneInput">
+        <input style="border-radius: 14px;" class="phone" type="number" name="phone" placeholder="MOBILE NUMBER"
+          required />
+        <div class="flag">
+          <span class="flag-svg"></span>
+          +91|
+        </div>
+      </div>
 
-            <div>
-              <input type="email" name="email" placeholder="EMAIL" required />
-            </div>
-            <div>
-              <input type="text" name="area" placeholder="AREA PREFERRED" required />
-            </div>
+      <div>
+        <input type="email" name="email" placeholder="EMAIL" required />
+      </div>
+      <div>
+        <input type="text" name="area" placeholder="AREA PREFERRED" required />
+      </div>
 
-            <div class="icon">
-              <input style="width: 100%;" class="wa wp" type="text" name="whatsapp"
-                value="GET UPDATES ON WHATSAPP"></input>
-              <label class="switch">
-                <input type="checkbox" name="whatsappUpdate" value="Yes" />
-                <span class="slider round"></span>
-              </label>
-            </div>
-            <br />
-            <input type="submit" name="submit" value="SUBMIT" />
-          </form>
-        </section>
+      <div class="icon">
+        <input style="width: 100%;" class="wa wp" type="text" name="whatsapp" value="GET UPDATES ON WHATSAPP"></input>
+        <label class="switch">
+          <input type="checkbox" name="whatsappUpdate" value="Yes" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <br />
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </section>
+
+
 
       </div>
     </div>

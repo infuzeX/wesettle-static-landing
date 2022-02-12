@@ -30,7 +30,7 @@ if ($conn->query($sql) === TRUE) {
                   Phone Number : $phone<br>
                   Email-id : <a href='mailto:$email'>$email</a><br>
                   Area : $area<br>
-                  Get Updates on Whatsapp : $whatsappUpdate
+                  Premium Properties Only : $whatsappUpdate
                   </b>
                   </p>
               ";
@@ -38,7 +38,7 @@ if ($conn->query($sql) === TRUE) {
     // smtp_mailer("mail-id of the user", subject , text inside the mail)
 	smtp_mailer($email_id,'User query',$mailHtml);          
     echo '<script>
-    alert("We will call you back as soon as possible.");
+    alert("Thank You! We will call you back as soon as possible.");
     window.location.href = "../";
     </script>';
 } else {

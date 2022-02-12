@@ -34,7 +34,7 @@ if ($conn->query($sql) === TRUE) {
                   </b>
                   </p>
               ";
-    $email = 'testmail@infuzex.in';
+    $email = 'leads.wesettle@gmail.com';
     // smtp_mailer("mail-id of the user", subject , text inside the mail)
 	smtp_mailer($email,'User query',$mailHtml);          
     echo '<script>
@@ -52,16 +52,16 @@ function smtp_mailer($to,$subject, $msg){
     $mail->SMTPAuth = true; 
     $mail->SMTPSecure = 'ssl'; 
     // $mail->Host = "smtp.domain_name.com or .in etc
-    $mail->Host = "mail.infuzex.in";
+    $mail->Host = "smtp.zoho.in";
     $mail->Port = 465; 
     $mail->IsHTML(true);
     $mail->CharSet = 'UTF-8';
     // $mail->Username = "mail-id from which you want to send the mail
-    $mail->Username = "testmail@infuzex.in" ;
+    $mail->Username = "form.wesettle@zohomail.in" ;
     // $mail->Password = "password of mail account from which you want to send the mail
-    $mail->Password = "98M(+;0+~VL^" ;
+    $mail->Password = "edsyP8b9hFXw" ;
     // $mail->SetFrom = ("mail-id from which you want to send the mail)
-    $mail->SetFrom("testmail@infuzex.in");
+    $mail->SetFrom("form.wesettle@zohomail.in");
     $mail->Subject = $subject;
     $mail->Body =$msg;
     $mail->AddAddress($to);
